@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Web3bridge Survey</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <h1 id="title">Web3bridge Survey Form</h1>
+  <p id="description">We would like to know what your experience learning with us has been.<br>
+    kindly fill out the details to help us serve you better</p>
+  <form id="survey_form">
+    <label id="name_label" for="fname">First Name:</label><br>
+    <input type="text" id="fname" name="fname" value="" placeholder="Uchenna"><br>
+
+    <label id="last_name" for="lname">Last Name:</label><br>
+    <input type="text" id="lname" name="lname" value="" placeholder="Okolo"><br>
+
+    <label id="email_label" for="Mail">E.mail:</label><br>
+    <input type="email" id="Mail" name="Mail" placeholder="xx@mail.com" value=""><br>
+
+    <label id="number_label" for="number">Phone Number:</label><br>
+    <input type="tel" id="number" name="phone" size="13" pattern="[0-9]{4}-[0-9]{3}-[0-9]{4}" placeholder="0800-000-0000" required><br><br>
+    <!-- <input type="submit" name=""> -->
+
+    <label id="Gender" for="Gender">Gender:</label><br>
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="Gender" value="">
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="Gender" value="">
+    <label for="Others">Others</label>
+    <input type="radio" id="Others" name="Gender" value=""><br>
+
+    <label>Course Enrolled:</label><br>
+    <select>
+      <option value="WEB2">WEB 2</option>
+      <option value="WEB3">WEB 3</option>
+      <option value="Solidity" selected>SOLIDITY</option>
+      <option value="NFT">NFTs</option>
+      <option value="DEFI">DEFIs</option>
+    </select><br>
+
+    <label id="Occupation" for="Gender">Occupation:</label><br>
+    <label for="Civil">Civil Servant</label>
+    <input type="checkbox" id="Civil" name="job" value="">
+    <label for="Private">Private</label>
+    <input type="checkbox" id="Private" name="job" value="">
+    <label for="Business">Entrepreneur</label>
+    <input type="checkbox" id="Business" name="job" value=""><br>
+
+    <textarea rows="5" cols="20" placeholder="write your review here"></textarea><br>
+    <input type="submit" value="Submit">
+    <hr>
+  </form>
+
+</body>
+
+</html>

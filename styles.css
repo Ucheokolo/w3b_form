@@ -1,0 +1,15 @@
+body {
+  background-color: #2C3639;
+  color: #fff;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+
+#title, #description {
+  text-align: center;
+}
+
+input, select {
+  margin-bottom: 1.5rem;
+
+}
